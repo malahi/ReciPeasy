@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Sign In / Sign Up</title>
+    <script>
+        $(function(){
+            console.log('asdasd')
+            $("#masterpage").load("masterpage.html")
+        });
+    </script>
+
+</head>
+<body>
+<div id = "masterpage"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+        <div class="row">
+            <label>Sign In</label>
+        </div>
+
+           <form action="/action_page.php">
+        username: </br>
+        <input type="text" placeholder="username"><br>
+        <br>
+        password: </br><input type="text" placeholder="password"><br>
+        <input type="submit"  value="Submit">
+        </form>
+        <br>
+
+<!--        <div class="row">-->
+<!--            <label style="color: red">*</label><label><b>password</b></label>-->
+<!--        </div>-->
+<!--         <div class="row">-->
+<!--            <input type="text" placeholder="password">-->
+<!--         </div>-->
+        <div class="row">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-3">
+                <button type="button" class="btn btn-warning" style="padding: 10px 25px">Sign In</button>
+            </div>
+            <div class="col-lg-3">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+<!--      image -->
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
