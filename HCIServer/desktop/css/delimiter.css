@@ -1,0 +1,4 @@
+/* Thick red border */
+hr.delimiter {
+  border: 1px solid red;
+}
