@@ -1,4 +1,11 @@
 /* Thick red border */
 hr.delimiter {
-  border: 1px solid red;
+  border: 1px solid #c00000;
+}
+
+.vdelimiter {
+  border-left: 1px solid #c00000;
+  height: 100%;
+  position: absolute;
+
 }
