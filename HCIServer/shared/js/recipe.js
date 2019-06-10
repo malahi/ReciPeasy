@@ -9,11 +9,12 @@ function getUrlVars() {
 
 let params = getUrlVars();
 
-$.get('/data/?_collection=recipes&_id=' + params['_id'], function (res) {
-    // alert(JSON.stringify(res));
-    document.getElementById('recipe').innerHTML += generatePage(res[0]);
-});
-
+$(document).ready(function () {
+        $.get('/data/?_collection=recipes&_id=' + params['_id'], function (res) {
+        // alert(JSON.stringify(res));
+        document.getElementById('recipe1').innerHTML += generatePage(res[0]);
+    });
+})
 
 function generatePage(recipe){
     return '<div style="padding-left: 3%" class="row">\n' +

@@ -9,15 +9,15 @@
              $("#footer").load("footer.html")
         });
     </script>
-    <link href="css/delimiter.css" rel="stylesheet">
-    <link href="css/upload.css" rel="stylesheet">
+    <link href="../shared/css/delimiter.css" rel="stylesheet">
+    <link href="../shared/css/upload.css" rel="stylesheet">
     <script src="../shared/js/upload.js"></script>
 
 </head>
-<body background="images/background2.jpg">
+<body background="../shared/images/background2.jpg">
 
 <div id = "masterpage"></div>
-<form onsubmit="addRecipe()">
+
 <div class="row">
     <div class="col-1"></div>
     <div class="col">
@@ -66,10 +66,10 @@
           </select>
         </div>
         <br><br><br><br>
-        <button class="btn btn-warning"  type="submit"> Upload </button>
+        <button class="btn btn-warning" id="upload_button" type="submit"> Upload </button>
     </div>
 </div>
-</form>
+
 <div id="footer"></div>
 </body>
 </html>

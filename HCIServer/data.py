@@ -51,7 +51,7 @@ data = {
                                 1/4 cup Dutch processed cocoa powder
                                 1 1/2 ounces of chopped dark chocolate (chocolate chips work fine too-about 1/4 cup)
                                 1 splash pure vanilla extract''',
-            "image": 'images/recipies/dish1.jpg',
+            "image": '../shared/images/recipies/dish1.jpg',
             "video": 'https://www.youtube.com/embed/SWEli_xReo8',
             "category": 'Desserts',
             "author": 'Scott Tsoie'
@@ -73,7 +73,7 @@ data = {
                                 sea salt
                                 4 tablespoons buckwheat honey
                                 2 blood oranges, segmented and chopped, membranes reserved''',
-            "image": 'images/recipies/dish2.jpg',
+            "image": '../shared/images/recipies/dish2.jpg',
             "video": 'https://www.youtube.com/embed/4Ap4vmefetc',
             "category": 'Desserts',
             "author": 'More Nelson'
@@ -96,7 +96,7 @@ data = {
                                 3 cups ripe strawberries, trimmed and halved
                                 1 cup strawberries, trimmed and cut into chunks
                                 juice of 1/2 lemon''',
-            "image": 'images/recipies/dish3.jpg',
+            "image": '../shared/images/recipies/dish3.jpg',
             "video": 'https://www.youtube.com/embed/xDW-BZuEIns',
             "category": 'Desserts',
             "author": 'Jacobs Walker'
@@ -123,7 +123,7 @@ data = {
                                 3/4 pound penne, rigatoni, or other tubular pasta
                                 2 eggs, plus one yolk, beaten well with a fork
                                 1/2 cup grated parmesan''',
-            "image": 'images/recipies/dish4.jpg',
+            "image": '../shared/images/recipies/dish4.jpg',
             "video": 'https://www.youtube.com/embed/jsUQ7WOntDc',
             "category": 'Pasta',
             "author": 'Harris Hill'
@@ -151,7 +151,7 @@ data = {
                                 1 cup broccoli florets, blanched or lightly steamed, chopped
                                 8 sprigs fresh cilantro, chopped, legs and all, plus extra for garnish
                                 1/2 cup roasted peanuts, for garnish''',
-            "image": 'images/recipies/dish5.jpg',
+            "image": '../shared/images/recipies/dish5.jpg',
             "video": 'https://www.youtube.com/embed/xSW_sEnLygI',
             "category": 'Pasta',
             "author": 'John Baker'
@@ -174,7 +174,7 @@ data = {
                                 Pepper
                                 4 eggs
                                 A pot of salted water with a splash of white vinegar for poaching.''',
-            "image": 'images/recipies/dish6.jpg',
+            "image": '../shared/images/recipies/dish6.jpg',
             "video": 'https://www.youtube.com/embed/Yrw3rR7-Wy0',
             "category": 'Salad',
             "author": 'Adam Morgan'

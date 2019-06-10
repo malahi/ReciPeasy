@@ -34,10 +34,10 @@ function generateOneColum(id, image, title, description, author) {
         // '          <img style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);"  src=' + popular_image + ' width="400" height="300"  class="rounded-circle">\n' +
         '           <div style="padding-right: 380px" class="flip-card rounded-circle">\n' +
         '               <div class="flip-card-inner rounded-circle">\n' +
-        '                   <div class="flip-card-front">\n' +
-        '                     <img style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);"  src=' + image + ' width="400" height="300"  class="rounded-circle">\n' +
+        '                   <div class="flip-card-front imgbox">\n' +
+        '                     <img class="center-fit" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);"  src=' + image + ' width="400" height="300"  class="rounded-circle">\n' +
         '                     </div>\n' +
-        '                     <div class="flip-card-back rounded-circle">\n' +
+        '                     <div class="flip-card-back">\n' +
         '                     <br><br><br> ' +
         '                     <h1><font face="Impact">Author</font></h1>\n' +
         '                     <h3><font face="Impact">' + author + '</font></h3>\n' +

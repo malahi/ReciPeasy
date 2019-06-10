@@ -1,3 +1,10 @@
+$(document).ready(function () {
+    $(document).on('click', '#upload_button', function () {
+        addRecipe();
+    })
+});
+
+
 function addRecipe(){
     let ingr = document.getElementById('ingr').value;
     let desc = document.getElementById('desc').value;
@@ -10,8 +17,13 @@ function addRecipe(){
     let e = document.getElementById("categories");
     let category = e.options[e.selectedIndex].value;
 
-
-    $.post('/addRec', JSON.stringify({ name:rec_name, description:desc, preperation:prep, ingredients:ingr, image:image_url, video:video_url, category:category, author:author_name}), (res)=>{
+    if(ingr === '' || desc === ''|| prep === '' || rec_name === '' || author_name === '' || image_url === '' || video_url === '' )
+    {
+        alert('Please fill all fields');
+        return;
+    }
+    $.post('/a', JSON.stringify({ name:rec_name, description:desc, preperation:prep, ingredients:ingr, image:image_url, video:video_url, category:category, author:author_name}), (res)=>{
         alert(res);
+        window.location = '/search.html'
     })
 }

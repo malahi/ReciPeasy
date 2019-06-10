@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+      <!-- Bootstrap core CSS -->
+      <link href="../shared/css/bootstrap.min.css" rel="stylesheet">
+<!--      &lt;!&ndash; Material Design Bootstrap &ndash;&gt;-->
+      <link href="../shared/css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+      <link href="../shared/css/style.css" rel="stylesheet">
+      <link href="../shared/css/masterpage.css" rel="stylesheet">
+    <link href="../shared/css/delimiter.css" rel="stylesheet">
+</head>
+
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/">Home</a>
+  <a href="/search.html">Recipes</a>
+  <a id="recipe" href="sign_in.html">Upload Recipe</a>
+  <a id="sign" href="/sign_in.html">Sign in</a>
+  <a id="logout" onclick="logout()" hidden="true" href="/about.html">Sign Out</a>
+  <a href="/about.html">About</a>
+</div>
+
+<div class="row">
+    <div class="col-1" style="padding-left: 8%"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i> </span></div>
+    <div class="col-8"><label style="padding-left: 40%">RecipEasy!</label></div>
+    <div class="col-1"><img src="../shared/images/masterLogo.png" style="width: 40px; height: 40px;"></div>
+</div>
+
+<hr width="96%" class="delimiter">
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function logout() {
+        document.cookie = '';
+        window.location = '/';
+}
+
+if(document.cookie.includes('loggedin') == true) {
+      document.getElementById('sign').hidden = true;
+      document.getElementById('logout').hidden = false;
+      document.getElementById('recipe').setAttribute('href', "upload.html");
+} else{
+      document.getElementById('logout').hidden = true;
+      document.getElementById('sign').hidden = false;
+      document.getElementById('recipe').setAttribute('href', "sign_in.html");
+}
+
+</script>
+
+</body>
+</html>
