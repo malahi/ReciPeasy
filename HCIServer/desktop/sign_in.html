@@ -7,24 +7,27 @@
     <script>
         $(function(){
             $("#masterpage").load("masterpage.html")
+             $("#footer").load("footer.html")
         });
     </script>
     <link href="css/delimiter.css" rel="stylesheet">
+    <script src="../shared/js/sign_in.js"></script>
 </head>
-<body background="images/background.png">
+<body background="images/background2.jpg">
 <div id = "masterpage"></div>
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
         <b>Sign In</b>
+<!--        <hr class="delimiter">-->
         <hr class="delimiter">
-        <form action="/action_page.php">
+        <form onsubmit="login()">
             <b style="color: red;">*</b>username: </br>
-            <input type="text" placeholder="username"><br>
+            <input id="susername" required=required type="text" placeholder="username"><br>
             <br>
             <b style="color: red;">*</b>password: </br>
-            <input  type="password" placeholder="password"><br>
-            <input  class="btn btn-warning" type="submit" style="float: right" value="Sign In">
+            <input id="spassword" required=required  type="password" placeholder="password"><br><br>
+            <button class="btn btn-warning" > Sign in </button>
         </form>
         <br>
         <br>
@@ -32,24 +35,24 @@
         <br>
         <b>Sign Up</b>
         <hr class="delimiter">
-        <form action="/action_page.php">
+        <form onsubmit="register()">
         <b style="color: red;">*</b>username: </br>
-            <input type="text" placeholder="username"><br>
+            <input required="required" id="rusername" type="text" placeholder="username"><br>
         <br>
         <div class="row">
             <div class="col-lg-6">
                 <b style="color: red;">*</b>password: </br>
-            <input type="password" placeholder="password">
+            <input required="required"  id="rpassword" type="password" placeholder="password">
             </div>
               <div class="col-lg-6">
         <b style="color: red;">*</b>confirm password: </br>
-            <input type="password" placeholder="confirm password">
+            <input required="required"  type="password" placeholder="confirm password">
             </div>
         </div>
             <br>
             <b style="color: red;">*</b>email: </br>
-            <input type="email" placeholder="example@email.com">
-        <input  class="btn btn-warning" type="submit" style="float: right" value="Sign Up">
+            <input required="required"  id="email" type="email" placeholder="example@email.com"><br><br>
+        <button class="btn btn-warning"  type="submit"> Sign UP </button>
         </form>
     </div>
     <div class="col-lg-6">
@@ -63,6 +66,6 @@
 </div>
 
 
-
+<div id="footer"></div>
 </body>
 </html>

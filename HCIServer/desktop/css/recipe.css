@@ -1,0 +1,7 @@
+.card-text{
+  white-space: unset;
+
+    width: 560px;
+  /*overflow: hidden;*/
+  text-overflow: ellipsis;
+}

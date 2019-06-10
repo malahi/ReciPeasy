@@ -53,7 +53,7 @@ a.control_prev, a.control_next {
   padding: 4% 3%;
   width: auto;
   height: auto;
-  background: #2a2a2a;
+  /*background: #2a2a2a;*/
   color: #fff;
   text-decoration: none;
   font-weight: 600;

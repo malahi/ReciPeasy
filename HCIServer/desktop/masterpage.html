@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-     <script src="/shared/js/angular.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Material Design Bootstrap</title>
       <!-- Font Awesome -->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
       <!-- Bootstrap core CSS -->
@@ -16,22 +14,44 @@
       <!-- Your custom styles (optional) -->
       <link href="css/style.css" rel="stylesheet">
       <link href="css/masterpage.css" rel="stylesheet">
+    <link href="css/delimiter.css" rel="stylesheet">
+
 </head>
-<body >
-<nav class="navbar navbar-nav">
-  <form class="form-inline">
-      <img src="images/masterLogo.png" width="75" height="75">
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      <button onclick="location.href = 'index.html';" class="btn btn-outline-success" type="button">Home</button>
-      <button onclick="location.href = 'about.html';" class="btn btn-outline-success" type="button">About</button>
-      <button onclick="location.href = 'recipes.html';" class="btn btn-outline-success" type="button">Recipes</button>
-      <button onclick="location.href = 'upload.html';" class="btn btn-outline-success" type="button">Upload Recipe</button>
-      <button onclick="location.href = 'sign_in.html';" class="btn btn-outline-success" type="button">Sign In / Sign Out</button>
-  </form>
-</nav>
+<body>
+<script>
+    function logout() {
+        document.cookie = '';
+        window.location = '/';
+    }
+  if(document.cookie.includes('loggedin') == true) {
+      document.getElementById('sign').hidden = true;
+      document.getElementById('logout').hidden = false;
+      document.getElementById('recipe').setAttribute('onclick', "location.href = 'upload.html';");
+  } else{
+      document.getElementById('logout').hidden = true;
+      document.getElementById('sign').hidden = false;
+      document.getElementById('recipe').setAttribute('onclick', "location.href = 'sign_in.html';");
+  }
+</script>
+<div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-1">       <div class="float-left"><img src="images/masterLogo.png" width="75" height="75"></div></div>
+    <div class="col-lg-8">
+    <br>
+<div class="nav">
+
+    <button onclick="location.href = 'index.html';" class="btn  btn-warning" type="button">Home</button>
+      <button onclick="location.href = 'about.html';" class="btn  btn-warning" type="button">About</button>
+      <button onclick="location.href = 'search.html';" class="btn  btn-warning" type="button">Recipes</button>
+      <button id="recipe" onclick="location.href = 'upload.html';" class="btn  btn-warning" type="button">Upload Recipe</button>
+      <button id="sign" onclick="location.href = 'sign_in.html';" class="btn  btn-warning" type="button">Sign In / Sign Out</button>
+      <button id="logout" hidden="hidden" onclick="logout()" class="btn  btn-warning" type="button">Sign Out</button>
+</div>
+    </div>
+    <div class="col-lg-2"></div>
+</div>
+<hr width="96%" class="delimiter">
+
+
 </body>
 </html>

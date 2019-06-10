@@ -3,93 +3,59 @@
 
 <head>
     <meta charset="UTF-8">
+        <script src="/shared/js/angular.min.js"></script>
+    <script src="app/app.module.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="css/delimiter.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="../shared/js/slider.js"></script>
+    <script src="../shared/js/index.js"></script>
     <title>RecipEasy</title>
     <script>
         $(function(){
             $("#masterpage").load("masterpage.html")
+            $("#footer").load("footer.html")
         });
     </script>
-    <link href="css/delimiter.css" rel="stylesheet">
-    <link href="css/slider.css" rel="stylesheet">
-  <link href="css/mycard.css" rel="stylesheet">
-     <script src="js/slider.js"></script>
+
+
 </head>
 
-<body background="images/background.png">
+<body background="images/background2.jpg">
 <div id = "masterpage"></div>
+<script>
+</script>
 <br>
-<center>Welcome to Recipeasy! Best recipes and easy to make</center>
+<div align="center" style="font-family:Impact"><h2>Welcome to Recipeasy! Best recipes and easy to make!</h2></div>
 <div id="slider">
-  <a href="#" class="control_next"><i class="fas fa-arrow-alt-circle-right"></i></a>
-  <a href="#" class="control_prev"><i class="fas fa-arrow-alt-circle-left"></i></a>
+  <a href="#" class="control_next"><i class="fas fa-arrow-alt-circle-right" style="font-size: 50px;"></i></a>
+  <a href="#" class="control_prev"><i class="fas fa-arrow-alt-circle-left" style="font-size: 50px;"></i></a>
   <ul>
-    <li>SLIDE 1</li>
-    <li style="background: #aaa;">SLIDE 2</li>
-    <li>SLIDE 3</li>
-    <li style="background: #aaa;">SLIDE 4</li>
+    <li><img src="images/recipies/dish1.jpg" width="1000" height="400"></li>
+    <li><img src="images/recipies/dish2.jpg" width="1000" height="400"></li>
+        <li><img src="images/recipies/dish3.jpg" width="1000" height="400"></li>
+       <li><img src="images/recipies/dish4.jpg" width="1000" height="400"></li>
   </ul>
+</div>
+<br>
+<div class="row">
+  <div class="col-lg-6">
+    <div style="font-family:Impact" align="center"><h2>Most Popular</h2></div>
+  </div>
+  <div class="col-lg-6">
+    <div style="font-family:Impact" align="center"><h2>Most Recent</h2></div>
+  </div>
+
 </div>
 <hr  width="96%" class="delimiter">
 
-<div class="row">
-  <div class="col-5">
-    <div align="center"><b ><l>Most Popular</l></b></div>
-    <div class="row">
-      <div class="col-lg-1"></div>
-    <div class="col-lg-10" align="center">
-          <img   src="images/dish-example.jpg" width="400" height="300"  class="rounded-circle">
-             <p>TITLE:</p>
-           <p class="mydescription">babababab ababa baba bab a ba bababababa baba babab abababa babab abab aba bb ab ab ab ab ab ab ab a ba a ba ba abababababab ababababab abaababab abab</p>
 
-     </div>
-    <div class="col-lg-1"></div>
-    </div>
-  <hr  width="96%" style="float: right" class="delimiter">
-
-  </div>
-  <div class="col-1">
-
-  </div>
-  <div class="col-6">
-     <div align="center"><b >Most Recent</b></div>
-<div class="row">
-      <div class="col-lg-1"></div>
-    <div class="col-lg-10" align="center">
-          <img   src="images/dish-example.jpg" width="400" height="300"  class="rounded-circle">
-             <p>TITLE:</p>
-           <p class="mydescription">babababab ababa baba bab a ba bababababa baba babab abababa babab abab aba bb ab ab ab ab ab ab ab a ba a ba ba abababababab ababababab abaababab abab</p>
-
-     </div>
-    <div class="col-lg-1"></div>
-    </div>
-  <hr  width="96%" style="float: right" class="delimiter">
-
-  </div>
-</div>
-
-<table>
-
-<tr>
-
-<td style="border-right-style: solid;">data1</td><td>data2</td>
-
-</tr>
-
-<tr>
-
-<td style="border-right-style: solid;">data1</td><td>data2</td>
-
-</tr>
-
-<tr>
-
-<td style="border-right-style: solid;">data1</td><td>data2</td>
-
-<tr>
+<table id="popular-recent-table">
 
 </table>
 
+<div id="footer"></div>
 
 </body>
 

@@ -3,14 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Upload</title>
     <script>
         $(function(){
             $("#masterpage").load("masterpage.html")
+             $("#footer").load("footer.html")
         });
     </script>
+    <link href="css/delimiter.css" rel="stylesheet">
+    <link href="css/upload.css" rel="stylesheet">
+    <script src="../shared/js/upload.js"></script>
+
 </head>
-<body background="images/background.png">
+<body background="images/background2.jpg">
+
 <div id = "masterpage"></div>
+<form onsubmit="addRecipe()">
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col">
+
+        <b style="color: red;">*</b><strong style="font-weight: bold">Ingredients:</strong></br>
+          <textarea id="ingr" required="required" style="resize: none;" class="form-control rounded-0" id="ingredients" rows="18"></textarea>
+
+
+    </div>
+    <div class="col">
+
+
+        <b style="color: red;">*</b><strong style="font-weight: bold">Description:</strong> </br>
+          <textarea id="desc" required="required" style="resize: none;" class="form-control rounded-0" id="description" rows="18"></textarea>
+
+    </div>
+    <div class="col">
+
+        <b style="color: red;">*</b><strong style="font-weight: bold">Preparation:</strong> <br>
+          <textarea id="prep" required="required" style="resize: none;" class="form-control rounded-0" id="preparation" rows="18"></textarea>
+
+    </div>
+    <div class="col">
+
+        <b style="color: red;">*</b><strong style="font-weight: bold">Recipe name:</strong> </br>
+            <input id="rec_name" required="required" type="text" placeholder="Recipe name"><br>
+        <br>
+
+        <b style="color: red;">*</b><strong style="font-weight: bold">Author name:</strong> </br>
+            <input id="author_name" required="required" type="text" placeholder="Author name"><br>
+        <br>
+
+        <b style="color: red;">*</b><strong style="font-weight: bold">Image URL:</strong> <br>
+            <input id="image_url" required="required" type="text" placeholder="Image"><br>
+        <br>
+        <b style="color: red;">*</b><strong style="font-weight: bold">Video URL:</strong> <br>
+            <input id="video_url" required="required" type="text" placeholder="Video"><br>
+        <br>
+        <b style="color: red;">*</b><strong style="font-weight: bold">Category:</strong></br>
+             <div class="styleSelect" style="padding-top: 2px;">
+          <select  id="categories"  class="units" style="width: 100px; height: 30px">
+            <option value="Desserts">Desserts</option>
+            <option value="Salad">Salad</option>
+            <option value="Fish">Fish</option>
+              <option value="Pasta">Pasta</option>
+          </select>
+        </div>
+        <br><br><br><br>
+        <button class="btn btn-warning"  type="submit"> Upload </button>
+    </div>
+</div>
+</form>
+<div id="footer"></div>
 </body>
 </html>

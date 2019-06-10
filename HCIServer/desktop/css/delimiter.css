@@ -4,7 +4,7 @@ hr.delimiter {
 }
 
 .vdelimiter {
-  border-left: 1px solid #c00000;
+  border-left: 0.4px solid #c00000;
   height: 100%;
   position: absolute;
 
