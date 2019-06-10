@@ -4,13 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <script src="/shared/js/angular.min.js"></script>
-    <script src="../shared/app/app.module.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="../shared/css/delimiter.css" rel="stylesheet">
-    <link href="../shared/css/slider.css" rel="stylesheet">
-    <link href="../shared/css/index.css" rel="stylesheet">
-    <script src="../shared/js/slider.js"></script>
-    <script src="../shared/js/index.js"></script>
+
+    <script src="/js/index.js"></script>
     <title>RecipEasy</title>
    <script>
         $(function(){
@@ -18,15 +15,45 @@
             $("#footer").load("footer.html")
         });
     </script>
-
+     <link href="/css/index.css" rel="stylesheet">
 </head>
-<body>
+<body background="../shared/images/background3.jpg">
 <div id="masterpage"></div>
 
-
-
-<div id="popular-recent-table">
+<div align="center" style="font-family:Impact"><h5>Welcome to Recipeasy!</h5><p> <h5>Best recipes and easy to make!</h5></p></div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="width: 100%; height: 190px">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="img"><img class="d-block img-fluid" src="../shared/images/recipies/dish1.jpg" style="height: 190px; width: 100%" alt="First slide"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="img"><img class="d-block img-fluid" src="../shared/images/recipies/dish2.jpg" style="height:  190px;  width: 100%" alt="Second slide"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="img"><img class="d-block img-fluid" src="../shared/images/recipies/dish3.jpg"  style="height:  190px;  width: 100%" alt="Third slide"></div>
+    </div>
+  </div>
 </div>
 
+<br>
+
+  <div align="center">
+    <div style="font-family:Impact" align="center"><h2>Most Popular</h2></div>
+  </div>
+<hr align="center" width="100%" class="delimiter">
+<div class="row">
+
+        <div id="popular-recent-table">
+        </div>
+
+</div>
+
+  <script type="text/javascript" src="../shared/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../shared/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="../shared/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../shared/js/mdb.min.js"></script>
 </body>
 </html>

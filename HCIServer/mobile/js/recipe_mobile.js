@@ -28,9 +28,10 @@ function showDes() {
 
 function showVideo() {
     document.getElementById('title_name').innerText = 'Video';
-    document.getElementById('value').innerHTML =  '<iframe width="565" height="400"\n' +
-        'src="' + result[0]['video'] + '">\n' +
-        '</iframe>';
+    document.getElementById('value').innerHTML = '<div class="video-container">' +
+        '<iframe width="100%" height="100%" src="' + result[0]['video'] + '"' +
+        ' frameborder="0" allowfullscreen="true"</iframe></div>\n'
+
 }
 
 function showPrep() {
