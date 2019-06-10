@@ -12,6 +12,6 @@ function addRecipe(){
 
 
     $.post('/addRec', JSON.stringify({ name:rec_name, description:desc, preperation:prep, ingredients:ingr, image:image_url, video:video_url, category:category, author:author_name}), (res)=>{
-        alert('aa   ' + res);
+        alert(res);
     })
 }

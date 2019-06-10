@@ -6,13 +6,14 @@
     <script>
         $(function(){
             $("#masterpage").load("masterpage.html")
+             $("#footer").load("footer.html")
         });
     </script>
     <link href="css/recipies.css" rel="stylesheet">
     <link href="css/delimiter.css" rel="stylesheet">
-    <script src="js/recipies.js"></script>
+    <script src="../shared/js/recipies.js"></script>
 </head>
-<body background="images/background2.png">
+<body background="images/background2.jpg">
 
 <div id = "masterpage"></div>
 <div class="row">
@@ -20,17 +21,18 @@
     <div class="col-lg-1">
     <br>
         <div class="styleSelect" style="padding-top: 2px;">
-          <select class="units" style="width: 100px; height: 30px">
-            <option value="Dessert">Dessert</option>
-            <option value="Feet">Feet</option>
-            <option value="Fathoms">Fathoms</option>
+          <select  id="categories"  class="units" style="width: 100px; height: 30px">
+            <option value="Desserts">Desserts</option>
+            <option value="Salad">Salad</option>
+            <option value="Fish">Fish</option>
+              <option value="Pasta">Pasta</option>
           </select>
         </div>
     </div>
     <div class="col-lg-5">
                 <div class="input-group md-form form-sm form-2 pl-0">
-          <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn-warning" type="submit">  <i class="fas fa-search text-grey"
+          <input style="background: white" id="search_value" class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn-warning" type="submit" onclick="findRecipes()">  <i class="fas fa-search text-grey"
                 aria-hidden="true"></i></button>
           <div class="input-group-append">
           </div>
@@ -48,6 +50,17 @@
 
 <div id="search"></div>
 
+<script>findRecipes(true)</script>
 
+
+  <script type="text/javascript" src="../shared/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="../shared/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="../shared/js/mdb.min.js"></script>
+
+<div id="footer"></div>
 </body>
 </html>
