@@ -24,13 +24,13 @@
         window.location = '/';
     }
   if(document.cookie.includes('loggedin') == true) {
-      document.getElementById('sign').hidden = true;
+      document.getElementById('sign_in.html').hidden = true;
       document.getElementById('logout').hidden = false;
-      document.getElementById('recipe').setAttribute('onclick', "location.href = 'upload.html';");
+      document.getElementById('upload.html').setAttribute('onclick', "location.href = 'upload.html';");
   } else{
       document.getElementById('logout').hidden = true;
-      document.getElementById('sign').hidden = false;
-      document.getElementById('recipe').setAttribute('onclick', "location.href = 'sign_in.html';");
+      document.getElementById('sign_in.html').hidden = false;
+      document.getElementById('upload.html').setAttribute('onclick', "location.href = 'sign_in.html';");
   }
 </script>
 <div class="row">
@@ -40,11 +40,11 @@
 
 <div align="center">
     <br>
-    <button onclick="location.href = 'index.html';" class="btn  btn-warning" type="button">Home</button>
-      <button onclick="location.href = 'about.html';" class="btn  btn-warning" type="button">About</button>
-      <button onclick="location.href = 'search.html';" class="btn  btn-warning" type="button">Recipes</button>
-      <button id="recipe" onclick="location.href = 'upload.html';" class="btn  btn-warning" type="button">Upload Recipe</button>
-      <button id="sign" onclick="location.href = 'sign_in.html';" class="btn  btn-warning" type="button">Sign In / Sign Out</button>
+      <button id="index.html" onclick="location.href = 'index.html';" class="btn  btn-warning" type="button">Home</button>
+      <button id="about.html" onclick="location.href = 'about.html';" class="btn  btn-warning" type="button">About</button>
+      <button id="search.html" onclick="location.href = 'search.html';" class="btn  btn-warning" type="button">Recipes</button>
+      <button id="upload.html" onclick="location.href = 'upload.html';" class="btn  btn-warning" type="button">Upload Recipe</button>
+      <button id="sign_in.html" onclick="location.href = 'sign_in.html';" class="btn  btn-warning" type="button">Sign In / Sign Out</button>
       <button id="logout" hidden="hidden" onclick="logout()" class="btn  btn-warning" type="button">Sign Out</button>
 </div>
     </div>
@@ -52,6 +52,16 @@
 </div>
 <hr width="96%" class="delimiter">
 
+
+<script>
+    let pages = ['index.html', 'about.html', 'search.html', 'upload.html', 'sign_in.html'];
+    for(let i = 0; i < pages.length; i++)
+        document.getElementById(pages[i]).setAttribute('class', "btn  btn  btn-warning");
+    let page = window.location.href.split('/');
+    page = page[page.length - 1];
+    page = page === ''? 'index.html': page;
+    document.getElementById(page).setAttribute('class', "btn  btn-orange");
+</script>
 
 </body>
 </html>
