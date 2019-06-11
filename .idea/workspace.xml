@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="751f89c0-92fc-4c79-ae68-c7b43f1bee1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HCIServer/desktop/masterpages.html" beforeDir="false" afterPath="$PROJECT_DIR$/HCIServer/desktop/masterpages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HCIServer/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/HCIServer/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HCIServer/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/HCIServer/handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HCIServer/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/HCIServer/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +15,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HCIServer/desktop/masterpages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="794">
+              <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCIServer/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5627">
+              <caret line="331" column="30" lean-forward="true" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCIServer/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HCIServer/handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HCIServer/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -50,54 +85,6 @@
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCIServer/desktop/recipe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCIServer/mobile/masterpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="71" column="22" lean-forward="true" selection-end-line="113" selection-end-column="7" />
-              <folding>
-                <element signature="e#1719#1726#1" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCIServer/shared/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="48" column="50" selection-end-line="57" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HCIServer/desktop/search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#hr#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,11 +163,9 @@
         <option value="$PROJECT_DIR$/HCIServer/desktop/css/upload.css" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/js/recipies.js" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/js/upload.js" />
-        <option value="$PROJECT_DIR$/HCIServer/server.py" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/js/sign_in.js" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/css/background.css" />
-        <option value="$PROJECT_DIR$/HCIServer/handler.py" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/js/index.js" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/footer.html" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/css/index.css" />
@@ -190,7 +175,6 @@
         <option value="$PROJECT_DIR$/HCIServer/shared/css/index.css" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/test.html" />
         <option value="$PROJECT_DIR$/HCIServer/mobile/upload.html" />
-        <option value="$PROJECT_DIR$/HCIServer/data.py" />
         <option value="$PROJECT_DIR$/HCIServer/mobile/js/search.js" />
         <option value="$PROJECT_DIR$/HCIServer/mobile/js/index.js" />
         <option value="$PROJECT_DIR$/HCIServer/mobile/css/index.css" />
@@ -211,6 +195,9 @@
         <option value="$PROJECT_DIR$/HCIServer/desktop/upload.html" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/sign_in.html" />
         <option value="$PROJECT_DIR$/HCIServer/desktop/masterpages.html" />
+        <option value="$PROJECT_DIR$/HCIServer/server.py" />
+        <option value="$PROJECT_DIR$/HCIServer/data.py" />
+        <option value="$PROJECT_DIR$/HCIServer/handler.py" />
       </list>
     </option>
   </component>
@@ -337,12 +324,12 @@
       <updated>1559921595349</updated>
       <workItem from="1559921597522" duration="117670000" />
       <workItem from="1560239477798" duration="9829000" />
-      <workItem from="1560274472256" duration="1913000" />
+      <workItem from="1560274472256" duration="2795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129412000" />
+    <option name="totallyTimeSpent" value="130294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,19 +375,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/HCIServer/handler.py</url>
-          <line>38</line>
+          <line>37</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/HCIServer/data.py</url>
-          <line>332</line>
+          <line>330</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ReciPeasy$server.coverage" NAME="server Coverage Results" MODIFIED="1560276132138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HCIServer" />
+    <SUITE FILE_PATH="coverage/ReciPeasy$server.coverage" NAME="server Coverage Results" MODIFIED="1560276960789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HCIServer" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -545,16 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HCIServer/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HCIServer/shared/css/recipies.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -620,23 +597,6 @@
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCIServer/handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HCIServer/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="257" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -823,8 +783,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HCIServer/desktop/masterpages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="794">
+          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCIServer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCIServer/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5627">
+          <caret line="331" column="30" lean-forward="true" selection-start-line="331" selection-start-column="30" selection-end-line="331" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCIServer/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HCIServer/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>

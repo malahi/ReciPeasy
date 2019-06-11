@@ -1,0 +1,3 @@
+https://mdbootstrap.com/
+https://use.fontawesome.com/
+https://ajax.googleapis.com/

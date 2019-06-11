@@ -1,6 +1,4 @@
 # The data for your website
-import json
-
 user_id = 2;
 curr_id = 11;
 data = {

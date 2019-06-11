@@ -1,7 +1,6 @@
 import json
 import http.server
 import urllib.parse
-import cgi
 
 from data import get_data
 from data import add_data
