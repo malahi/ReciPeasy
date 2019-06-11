@@ -21,6 +21,7 @@ function register(){
     let email = document.getElementById('email').value;
     $.post('/register', JSON.stringify({username:username, password:password, email:email}), (res)=>{
         alert(res)
+        window.location = '/';
     })
 }
 
