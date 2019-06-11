@@ -2,7 +2,7 @@
 import json
 
 user_id = 2;
-curr_id = 7;
+curr_id = 11;
 data = {
     "users":[
         {
@@ -160,11 +160,15 @@ data = {
             "id": 6,
             "name": '''Dandelion Greens Salad''',
             "description": '''One of the vendors at the Farmer's Market just started getting dandelion greens a couple of weeks ago, and I will say I was happy to see them! When I walked over to get them yesterday she asked me "are you ready for these?" and so - fair warning - they are an intense green. Strong and bitter, but I think balanced with some sweet and salt and richness they are absolutely delicious. - aargersi —aargersi''',
-            "preperation": '''  Clean the dandelions: remove the thick part of the stems and gently tear the leaves into bite size pieces. Wash them and dry them very thoroughly. Put them in a big bowl that you can toss the salad in.
-                                Prepare the leeks: I used the chop first, rinse second method, and then took them for a spin in the salad spinner to dry. It worked great! Use white and light green parts only and chop faily small - I quartered the leek and cut 1/4 inch strips. Put a large pot of salted water on and get it started for poaching the eggs, add a splash of white vinegar to the pot as well. Crack each egg into an individual dish.
-                                Now cook the bacon in a skillet until crisp. Remove it to drain and turn the heat to medium. I didn't remove any fat from the pan but bacon differs - if you have a deep layer of fat in the pan maybe remove a little. Add the leeks and cook them until they are quite soft. Turn off the heat and add the vinegar, stirring to get the good bits up off the pan. Pour the leeks and all of the liquid into a small bowl, grind some pepper in and add the oilve oil and maple syrup. Whisk the dressing and taste - mine had plenty of salt from the bacon but add more if you need it. Also test acidity, you may want another splash of vinegar. Crumble the bacon onto the greens. Toss the warm dressing with the dandelion greens and bacon.
-                                Poach the eggs: slide each one into the boiling water and let them poach for 3-4 minutes. While they are poaching go ahead and toss the greens a few more times (the warm dressing will wilt them ever so slightly) and then portion them onto 4 plates. Make sure that each plate gets equal amount of bacon or fights will break out.
-                                Top each salad with a poached egg, grind a bit more pepper over the top, and serve. Enjoy the springtime!!!''',
+            "preperation": '''  Preheat the oven to 250° F (120° C).
+                                Lightly grease three 8-inch round cake pans and line with parchment paper. Alternatively, line three baking sheets with parchment paper and draw an 8-inch circle on each one (you can use a cake pan as a guide to draw the circles).
+                                In a clean metal or glass bowl, whisk the egg whites with the salt till they hold soft peaks. Whisk in the sugars 1 tablespoon at a time, beating well after each addition. Add the vinegar and whisk until the mixture looks glossy and holds stiff peaks. Fold in the chopped nuts, gently but thoroughly.
+                                Divide the meringue mixture equally between the 3 cake pans or 3 circles drawn on the baking sheets. Smooth the tops with the back of a round spoon. Bake until the tops are crisp and dry, an hour to 1 hour 15 mins. Switch off the oven and leave the pans in to cool for an hour with the door slightly ajar.
+                                While the meringues cool, halve or quarter the strawberries depending on their size. Place in a large bowl, sprinkle sugar and rose water over the berries, toss gently and let stand for half an hour.
+                                Beat cream and mascarpone with the rose water in a bowl until the mixture just holds stiff peaks.
+                                Invert the cooled meringue discs onto a plate and gently peel off the parchment paper. Invert onto another plate so they are right side up.
+                                Spread a third of the cream over one meringue disc, followed by a third of the strawberries. Repeat with the remaining meringue layers, cream and strawberries. Garnish with the slivered pistachios and serve.
+                                Do-ahead: Although the dessert must be assembled just before serving, the meringue layers can be made ahead of time—they will keep well wrapped in parchment paper in an airtight container for up to a week.''',
             "ingredients": '''  1 big bunch of dandelion greens, about 4 heaping cups when cleaned
                                 1 large leek (or 2 small ones)
                                 6 strips bacon (some of the bacon inevitably gets swiped during the cooking process)
@@ -178,6 +182,106 @@ data = {
             "video": 'https://www.youtube.com/embed/Yrw3rR7-Wy0',
             "category": 'Salad',
             "author": 'Adam Morgan'
+        },
+        {
+            "id": 7,
+            "name": '''Fish Yassa''',
+            "description": '''  When my family and I lived in San Francisco, we often visited a little restaurant in the Mission District called Bissap Baobab. I particularly loved their hibiscus cocktails and a mustardy fish dish. Recently, I recalled the fish dish and tried to figure out what went into it. In my research, I came across a lot of references to a Senegalese dish made with variations of lemon, vinegar, and mustard. While it did not sound exactly like the Bissap Baobab fish, it sounded delicious enough for me to give it a try. I started building the recipe from some toasted coriander, black pepper, and chiles -- and the results were delicious, and very, very spicy. When I first tried a sample of a dried arbol chile, it was not so hot, but after a second little nibble, my lips lit on fire. I did find that cold cream cheese, applied as lipstick, does wonders for stopping the burn... and for my next attempt, I may choose to remove the seeds before adding the chiles to the dish to cut down on the heat. —savorthis''',
+            "preperation": '''  Crush the coriander, pepper, and chiles with a mortar and pestle. Toast until fragrant in a large sauce pan, then transfer to a large bowl. Add onion, lemon juice, vinegar, and mustard, then tuck fish into the mixture until covered completely, and marinate for about 1 hour.
+                                Heat oil in pan over medium-high heat. Remove fish, salt each side, and cook for a few minutes on each side. Remove to a plate.
+                                Remove the onions from the marinade, and them add to the pan. Cook, stirring occasionally, until browned. Pour remaining marinade into the pan along with the broth. Nestle potatoes into the pan, cover, and simmer over medium-low heat, until potatoes are tender, roughly ten minutes. Add fish back to pan to warm. Serve over rice, quinoa, or another grain.''',
+            "ingredients": '''  1 teaspoon coriander seeds
+                                1/4 teaspoon black peppercorns
+                                2 small dry red chiles (arbol are nice, but hot!)
+                                2 large yellow onions, sliced into moons
+                                4 tablespoons lemon juice
+                                6 tablespoons cider vinegar
+                                2 tablespoons whole-grain Dijon mustard
+                                1 pound white fish, whole or fillets (I used tilapia)
+                                Salt
+                                2 tablespoons peanut oil
+                                3 cups broth (I used Dashi, but chicken or vegetable broth works too)
+                                3/4 pound yellow potatoes, cut into 1-inch cubes''',
+            "image": '../shared/images/recipies/dish7.jpg',
+            "video": 'https://www.youtube.com/embed/LRaow9b3p7s',
+            "category": 'Fish',
+            "author": 'Adam Morgan'
+        },
+        {
+            "id": 8,
+            "name": '''Oreo Dessert''',
+            "description": '''  This dessert is true frozen bliss. The recipe has been in my family for years. We compare all other desserts against it, and nothing, ever, has measured up. I make this all-year long, but it's especially great in the summer because it's quick and easy to assemble (no baking required) and feeds a crowd. —EmilyC''',
+            "preperation": '''  For crust: Butter the bottom of a 9x13x2 pan (such as Pyrex). Melt 1/2 stick butter (4 tablespoons) in a bowl. Crush the Oreo cookies into fine crumbs with a little texture. (For ease, place the cookies in a zipper-lock bag, seal, and then crush with a rolling pin. Turn the bag inside-out to scrape out all of the crumbs.) Mix the Oreo crumbs with the melted butter in the pan, and press them evenly into the bottom. Cover the pan and freeze until the crust is set, about 30 minutes.
+                                For filling: Let the ice cream soften a bit on the counter until it's spreadable. Evenly spread it over the Oreo crust. Cover the pan and return to the freezer for at least an hour to set the ice cream.
+                                For fudge topping: Combine the remaining stick of butter (8 tablespoons), chocolate, sugar, and evaporated milk in a saucepan. Bring to a low boil and cook for 4 minutes, stirring constantly. Cool to room temperature. (If in a hurry, set the saucepan in a ice bath to speed up the cooling process, stirring several times and scraping down the sides of the bowl. It should be ready in 5 to 10 minutes.) Working quickly, pour the fudge evenly over the ice cream, covering as much as possible, then spread with a knife to distribute the fudge in a smooth, even layer. Cover the pan and return to the freezer for another hour or two, or until fully frozen and set.
+                                When ready to serve, let the Oreo dessert sit on the counter for about 5 minutes to take the chill off (and make cutting easier), then cut into squares and serve. Tightly covered, it'll keep well in the freezer for several weeks.''',
+            "ingredients": '''  24 Oreo cookies (272 grams) (the classic kind, not double-stuff)
+                                1 1/2 sticks (12 tablespoons, 170 grams) salted butter, divided, plus more for pan (use salted; it makes a big difference!)
+                                1/2 gallon (2 quarts) of your favorite vanilla ice cream
+                                4 ounces (113 grams) German’s sweet chocolate (such as Baker's brand)
+                                2/3 cup (135 grams) granulated sugar
+                                1 small can evaporated milk (5 fluid ounces, 147 mL)''',
+            "image": '../shared/images/recipies/dish8.jpg',
+            "video": 'https://www.youtube.com/embed/xVjJoSFjZFs',
+            "category": 'Desserts',
+            "author": 'Mike Ross'
+        },
+        {
+            "id": 9,
+            "name": '''Pistachio Meringue Stack with Rose Cream and Strawberries''',
+            "description": '''  The classic combination of meringue and strawberries gets a new twist in this recipe. Pistachios and brown sugar add a depth of flavor to the meringue, rose water perfumes the whipped cream and mascarpone filling, and everything comes together to highlight the luscious taste of ripe strawberries. This recipe was originally inspired by Nigella Lawson's Gooey Chocolate Stack. Summer, and leftover ingredients from a recent tryst with kheer (Indian rice pudding) inspired this version. You can locate pistachios and rose water at any Indian or Middle-Eastern store; if not, I'm sure the combination of almonds and pure vanilla would be equally delightful. This delicious dessert also happens to be gluten-free. - Heena —Heena''',
+            "preperation": '''  Preheat the oven to 250° F (120° C).
+                                Lightly grease three 8-inch round cake pans and line with parchment paper. Alternatively, line three baking sheets with parchment paper and draw an 8-inch circle on each one (you can use a cake pan as a guide to draw the circles).
+                                In a clean metal or glass bowl, whisk the egg whites with the salt till they hold soft peaks. Whisk in the sugars 1 tablespoon at a time, beating well after each addition. Add the vinegar and whisk until the mixture looks glossy and holds stiff peaks. Fold in the chopped nuts, gently but thoroughly.
+                                Divide the meringue mixture equally between the 3 cake pans or 3 circles drawn on the baking sheets. Smooth the tops with the back of a round spoon. Bake until the tops are crisp and dry, an hour to 1 hour 15 mins. Switch off the oven and leave the pans in to cool for an hour with the door slightly ajar.
+                                While the meringues cool, halve or quarter the strawberries depending on their size. Place in a large bowl, sprinkle sugar and rose water over the berries, toss gently and let stand for half an hour.
+                                Beat cream and mascarpone with the rose water in a bowl until the mixture just holds stiff peaks.
+                                Invert the cooled meringue discs onto a plate and gently peel off the parchment paper. Invert onto another plate so they are right side up.
+                                Spread a third of the cream over one meringue disc, followed by a third of the strawberries. Repeat with the remaining meringue layers, cream and strawberries. Garnish with the slivered pistachios and serve.
+                                Do-ahead: Although the dessert must be assembled just before serving, the meringue layers can be made ahead of time—they will keep well wrapped in parchment paper in an airtight container for up to a week.''',
+            "ingredients": '''  6 large egg whites (at room temperature, make sure there is no trace of egg yolk)
+                                1 pinch of salt
+                                1/2 cup brown sugar (not packed, processed in a food processor if crystals are large)
+                                1 cup fine granulated sugar
+                                1 teaspoon balsamic vinegar
+                                1 cup pistachios, finely chopped
+                                For the berries and cream
+                                Berries:
+                                2 pounds strawberries
+                                2 tablespoons sugar
+                                1 tablespoon rose water
+                                Cream:
+                                1 cup chilled heavy cream
+                                1 cup mascarpone
+                                1 tablespoon rose water
+                                Garnish (optional):
+                                1 tablespoon pistachios, chopped or slivered''',
+            "image": '../shared/images/recipies/dish10.jpg',
+            "video": 'https://www.youtube.com/embed/NS4yqgNjl9Y',
+            "category": 'Desserts',
+            "author": 'Mike Ross'
+        },
+        {
+            "id": 10,
+            "name": '''Affogato allo Zabaglione''',
+            "description": '''  When I was little, my mom would make us “l'uovo sbatutto,” which means “beaten egg,” with lots of sugar, to spoon into our coffee. Almost a deconstructed tiramisu, but with ice cream, this dessert is a combination of all my favorite sweet Italian things. Affogato means “drowned,” so maybe this is a drowned tiramisu. 
+                                Feel free to break this recipe apart, and have your ice cream with just the espresso and liqueur (like a true affogato) or the espresso with a few dollops of the zabaglione—both equally good desserts on their own. —mrslarkin''',
+            "preperation": '''  Crush the coriander, pepper, and chiles with a mortar and pestle. Toast until fragrant in a large sauce pan, then transfer to a large bowl. Add onion, lemon juice, vinegar, and mustard, then tuck fish into the mixture until covered completely, and marinate for about 1 hour.
+                                Heat oil in pan over medium-high heat. Remove fish, salt each side, and cook for a few minutes on each side. Remove to a plate.
+                                Remove the onions from the marinade, and them add to the pan. Cook, stirring occasionally, until browned. Pour remaining marinade into the pan along with the broth. Nestle potatoes into the pan, cover, and simmer over medium-low heat, until potatoes are tender, roughly ten minutes. Add fish back to pan to warm. Serve over rice, quinoa, or another grain.''',
+            "ingredients": '''  1 pint premium vanilla, coffee, or chocolate ice cream or gelato
+                                1/2 cup hot, freshly brewed espresso (up to 1 cup if you prefer)
+                                4 egg yolks
+                                4 tablespoons granulated sugar
+                                4 tablespoons Moscato D'Asti or Marsala (optional)
+                                4 lady fingers (optional)
+                                1 splash Frangelico, Kahlua or liqueur of your choice (optional)
+                                1 drop Whipped cream (optional)
+                                1 pinch Grated bittersweet chocolate (optional)''',
+            "image": '../shared/images/recipies/dish9.jpg',
+            "video": 'https://www.youtube.com/embed/mp8CybGwZEo',
+            "category": 'Desserts',
+            "author": 'Chan Lee'
         }
     ],
 }

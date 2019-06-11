@@ -11,7 +11,7 @@
     </script>
     <link href="../shared/css/recipies.css" rel="stylesheet">
     <link href="../shared/css/delimiter.css" rel="stylesheet">
-    <script src="../shared/js/recipies.js"></script>
+    <script src="/js/search.js"></script>
 </head>
 <body background="../shared/images/background2.jpg">
 
@@ -21,7 +21,7 @@
     <div class="col-lg-3"></div>
     <div class="col-lg-1">
     <br>
-        <div class="styleSelect" style="padding-top: 2px;">
+        <div align="center" class="styleSelect" style="padding-top: 2px;">
           <select  id="categories"  class="units" style="width: 100px; height: 30px">
             <option value="Desserts">Desserts</option>
             <option value="Salad">Salad</option>
@@ -51,8 +51,13 @@
     </dev>
 </dev>
 
-<div id="search"></div>
+<div class="row">
 
+<div class="col-12">
+    <div id="search"></div>
+</div>
+
+</div>
 <script>findRecipes(true)</script>
 
 
